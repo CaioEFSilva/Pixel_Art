@@ -1,0 +1,75 @@
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+#color-palette {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.color {
+  display: table-cell;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  margin: 2px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#preto {
+  background-color: black;
+  margin-left: 1%;
+}
+
+#color-1 {
+  background-color: red;
+  margin-left: 1%;
+}
+
+#color-2 {
+  background-color: blue;
+  margin-left: 1%;
+}
+
+#color-3 {
+  background-color: gold;
+  margin-left: 1%;
+}
+
+#button-random-color {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid black;
+}
+
+#butão {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-block: 10px;
+}
+#pixel-board {
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  justify-content: center;
+  padding: 10;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.div-line {
+  margin: 0;
+  padding: 0;
+}
+
+.pixel {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+}

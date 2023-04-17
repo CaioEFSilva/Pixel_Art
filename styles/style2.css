@@ -8,7 +8,9 @@
 body
 {
     font-family: 'Silkscreen';
-    background-color: rgb(114, 114, 114);
+    background-image:url(https://rare-gallery.com/thumbs/4528076-noah-bradley-pixel-art-trees-magic-roots.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body::-webkit-scrollbar
@@ -34,7 +36,7 @@ body::-webkit-scrollbar-thumb
     background-image: linear-gradient(to bottom, #3b38e6, #1625a8, #1707ac, #070ad4, #2d08d1);
 }
 
-.cabecalho__tit
+.cabecalho_tit
 {
     margin-left: 5px;
     letter-spacing: -3px;
@@ -54,7 +56,7 @@ body::-webkit-scrollbar-thumb
     gap: 20px;
 }
 
-.principal__secao:nth-child(1)
+.principal_secao:nth-child(1)
 {
     width: 100%;
     padding: 20px 0;
@@ -68,7 +70,7 @@ body::-webkit-scrollbar-thumb
     align-items: center;
 }
 
-.principal__paleta
+.principal_paleta
 {
     width: auto;
     padding: 20px;
@@ -111,7 +113,7 @@ body::-webkit-scrollbar-thumb
     box-shadow: 0 0 0 3px rgb(9, 66, 190), 0 0 0 6px rgb(9, 5, 219);
 }
 
-.principal__botoes
+.principal_botoes
 {
     width: auto;
 
@@ -119,13 +121,13 @@ body::-webkit-scrollbar-thumb
     gap: 20px;
 }
 
-.principal__botoes__reset,
-.principal__botoes__random
+.principal_botoes_reset,
+.principal_botoes_random
 {
     transform: scale(.8);
 }
 
-.principal__secao:nth-child(2)
+.principal_secao:nth-child(2)
 {
     width: 100%;
     padding: 20px 0;
@@ -136,7 +138,7 @@ body::-webkit-scrollbar-thumb
     gap: 20px;
 }
 
-.principal__resize
+.principal_resize
 {
     display: flex;
     align-items: center;
@@ -144,7 +146,7 @@ body::-webkit-scrollbar-thumb
     gap: 20px;
 }
 
-.principal__resize__generate
+.principal_resize_generate
 {
     display: flex;
     justify-content: center;
@@ -152,7 +154,7 @@ body::-webkit-scrollbar-thumb
     gap: 5px;
 }
 
-.principal__quadro
+.principal_quadro
 {    
     max-width: 95%;
     max-height: 70vh;
@@ -163,24 +165,24 @@ body::-webkit-scrollbar-thumb
     display: grid;
 }
 
-.principal__quadro::-webkit-scrollbar
+.principal_quadro::-webkit-scrollbar
 {
     background-color: rgb(61, 61, 61);
     width: 3px;
     height: 3px;
 }
 
-.principal__quadro::-webkit-scrollbar-thumb
+.principal_quadro::-webkit-scrollbar-thumb
 {
     background-color: #00c3ff;
 }
 
-.principal__quadro::-webkit-scrollbar-corner
+.principal_quadro::-webkit-scrollbar-corner
 {
     background-color: #00c3ff;
 }
 
-.principal__quadro:hover::-webkit-scrollbar
+.principal_quadro:hover::-webkit-scrollbar
 {
     width: 6px;
     height: 6px;
